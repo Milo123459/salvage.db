@@ -1,0 +1,4 @@
+Key: String,
+Value: String,
+Active: Boolean,
+Exist: Boolean

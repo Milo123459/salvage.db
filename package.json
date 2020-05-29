@@ -1,0 +1,19 @@
+{
+  "name": "salvage.db",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["db","salvage.db","salvage","salvage database","mongodb","mongoose"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "log-symbols": "^4.0.0",
+    "mongoose": "^5.9.16",
+    "outdent": "^0.7.1",
+    "this.db": "^1.0.3"
+  }
+}
