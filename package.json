@@ -1,6 +1,6 @@
 {
   "name": "salvage.db",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,9 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "log-symbols": "^4.0.0",
     "mongoose": "^5.9.16",
-    "outdent": "^0.7.1",
     "this.db": "^1.0.4"
   }
 }

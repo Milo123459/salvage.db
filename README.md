@@ -46,9 +46,7 @@ This example saves the key of "Key1" with the value of "Value" to the database. 
 
 # <u>Dependencies
 
-Salvage.DB has 4 Dependencies:
+Salvage.DB has 2 Dependencies:
 
 1. Mongoose
 2. This.db
-3. Log-Symbols
-4. Outdent
