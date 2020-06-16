@@ -4,9 +4,10 @@ let db = new MongoClient({
     "mongodb+srv://Salvage:SalvageDev@cluster0-bsjyv.mongodb.net/Data?retryWrites=true&w=majority",
 });
 (async () => {
-  await db.set("LolTest",{
-    O: 'L  o l'
+  await db.set("LolTest", {
+    O: "L  o l",
   });
-  console.log(await db.get("LolTest"))
-  console.log(await db.get("LolEJEwqiehqwuh"))
+  console.log(await db.get("LolTest"));
+  await db.delete("LolTest");
+  console.log(await db.get("LolTest"));
 })();
