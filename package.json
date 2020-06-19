@@ -17,7 +17,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lakesjs": "^1.0.3",
     "mongoose": "^5.9.16",
     "this.db": "^1.0.4"
   },
