@@ -49,4 +49,11 @@ This example saves the key of "Key1" with the value of "Value" to the database. 
 Salvage.DB has 2 Dependencies:
 
 1. Mongoose
-2. This.db
+2. This.db<br><br>
+**Update: 19/06/2020**<br>
+Added the long awaited `db.cached`! This will return all data stored, and if it get's deleted, it will be deleted from the cache. This will actually make the getting route faster, as if it is cached we can fetch it much quicker.<br>
+New methods:
+```js
+await db.clearCache(); //Clear the cache
+```
+Thank you.
